@@ -1,0 +1,21 @@
+{
+    "item_name": "Lemon Coffee Cake Muffin",
+    "serving_size": "1 each",
+    "calories": "199",
+    "total_fat": "6.4g",
+    "saturated_fat": "1.1g",
+    "trans_fat": "0g",
+    "cholesterol": "0mg",
+    "sodium": "164.9mg",
+    "total_carbohydrate": "32.5g",
+    "dietary_fiber": "0.5g",
+    "total_sugars": "1.2g",
+    "added_sugars": "0.5g",
+    "protein": "2.2g",
+    "vitamin_d": "0.2mcg",
+    "calcium": "55.9mg",
+    "iron": "0.9mg",
+    "potassium": "50mg",
+    "ingredients": "AP  Flour (Enriched Bleached Wheat Flour (Bleached Flour, Niacin, Reduced  Iron, Enzymes added for improved baking, Thiamine Mononitrate,  Riboflavin, Folic Acid)), Soy Milk (Water, Organic Soybeans, Cane Sugar,  Contains 1 Or Less Of: Gellan Gum, Locust Bean Gum, Natural Flavor,  Riboflavin B2, Sea Salt, Tricalcium Phosphate, Vitamin A Palmitate,  Vitamin B6, Vitamin B12, Vitamin D2, Vitamin E D-alpha Tocopheryl  Acetate.), Granulated Sugar, Margarine Spread (Oil Blend (Palm, Soybean,  Canola, and Olive Oils), Water, Contains less than 2% of Salt,  Enzyme-Modified Soybean Lecithin, Natural & Artificial Flavor,  Potassium Sorbate and Calcium Disodium EDTA (to preserve freshness),  Lactic Acid, Vitamin A Palmitate, and Beta-Carotene Color), Lemon Glaze  (Powdered Sugar (Sugar, Cornstarch), Fresh Lemon Juice, Imitation  Vanilla Extract (Water, Caramel Color, Artificial Flavor, Citric Acid,  Sodium Benzoate (preservative). )), Fresh Lemon Juice, Baking Powder  (Baking Soda, Corn Starch, Sodium Aluminum Sulfate, Calcium Sulfate,  Monocalcium Phosphate), Lemon Extract (Alcohol, Water, Oil of Lemon),  Canola Pan Spray (Canola Oil, Canola Lecithin, Mono and Diglycerides,  Natural Flavor, Propellan), Imitation Vanilla Extract (Water, Caramel  Color, Artificial Flavor, Citric Acid, Sodium Benzoate (preservative).  ), Salt (Salt)",
+    "allergens": "Wheat, Soybeans"
+}
