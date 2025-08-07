@@ -1,9 +1,26 @@
 import React, { useState, useEffect } from 'react';
+// In a real project, you would need to install recharts: npm install recharts
+import NutritionChart from './NutritionChart'; // IMPORT THE NEW COMPONENT
+import mealsData from '../public/meals.json';
+import dvData from '../public/dv.json';
+// Re-enabled menu.json import
+import menuData from '../public/menu.json'; 
 
 // --- Components ---
 
+// NutritionChart component is now in its own file: NutritionChart.jsx
+
 const MealItemDetail = ({ item, servings, fullFoodData }) => {
-    // Find the detailed nutritional info for this item from the full database
+    // This component relies on 'fullFoodData' from 'menu.json'.
+    if (!fullFoodData || fullFoodData.length === 0) {
+        return (
+            <tr className="border-b border-gray-200">
+                <td className="py-2 pr-2 font-medium text-gray-800">{item.item_name} {servings > 1 ? `(x${servings})` : ''}</td>
+                <td colSpan="7" className="py-2 px-2 text-center text-gray-400">Detailed nutrition data not available</td>
+            </tr>
+        );
+    }
+
     const foodDetails = fullFoodData.find(food => food.item_name === item.item_name);
 
     if (!foodDetails) {
@@ -12,12 +29,12 @@ const MealItemDetail = ({ item, servings, fullFoodData }) => {
     
     // Helper to parse string values (e.g., "6.8g") and multiply by servings
     const calc = (value) => {
-        if (typeof value !== 'string') return 0;
+        if (typeof value !== 'string' && typeof value !== 'number') return 0;
         return (parseFloat(value) || 0) * servings;
     }
 
     return (
-        <tr className="border-b border-gray-200">
+        <tr className="border-b border-gray-200 hover:bg-gray-50">
             <td className="py-2 pr-2 font-medium text-gray-800">{item.item_name} {servings > 1 ? `(x${servings})` : ''}</td>
             <td className="py-2 px-2 text-center">{calc(foodDetails.calories).toFixed(0)}</td>
             <td className="py-2 px-2 text-center">{calc(foodDetails.protein).toFixed(1)}g</td>
@@ -30,7 +47,8 @@ const MealItemDetail = ({ item, servings, fullFoodData }) => {
     );
 };
 
-const MealDetail = ({ plan, onBack, fullFoodData }) => {
+// The fullFoodData prop is now accepted here to pass down
+const MealDetail = ({ plan, onBack, dvTargets, fullFoodData }) => {
     return (
         <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-200 animate-fade-in">
             <button onClick={onBack} className="mb-6 bg-blue-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
@@ -39,15 +57,9 @@ const MealDetail = ({ plan, onBack, fullFoodData }) => {
             
             <div className="mb-6">
                 <h3 className="text-3xl font-bold text-blue-600">Meal Plan #{plan.rank} - Detailed View</h3>
-                 <div className="bg-blue-50 border border-blue-200 text-blue-800 rounded-lg p-3 mt-4 text-sm">
-                    <b>Daily Totals:</b> {plan.daily_totals.calories.toFixed(0)} kcal | 
-                    <b>Protein:</b> {plan.daily_totals.protein.toFixed(1)}g | 
-                    <b>Fat:</b> {plan.daily_totals.total_fat.toFixed(1)}g | 
-                    <b>Carbs:</b> {plan.daily_totals.total_carbohydrate.toFixed(1)}g |
-                    <b>Fiber:</b> {plan.daily_totals.dietary_fiber.toFixed(1)}g |
-                    <b>Potassium:</b> {plan.daily_totals.potassium.toFixed(0)}mg
-                </div>
             </div>
+
+            {/* The self-contained chart component is used here */}
 
             {Object.entries(plan.plan).map(([mealName, mealDetails]) => (
                 <div key={mealName} className="mb-8">
@@ -68,6 +80,7 @@ const MealDetail = ({ plan, onBack, fullFoodData }) => {
                             </thead>
                             <tbody>
                                 {mealDetails.items.map((item, index) => (
+                                    // Pass the fullFoodData down to the item detail component
                                     <MealItemDetail key={index} item={item} servings={item.servings} fullFoodData={fullFoodData} />
                                 ))}
                             </tbody>
@@ -75,6 +88,9 @@ const MealDetail = ({ plan, onBack, fullFoodData }) => {
                     </div>
                 </div>
             ))}
+            <NutritionChart dailyTotals={plan.daily_totals} dvTargets={dvTargets} />
+
+
         </div>
     );
 };
@@ -127,35 +143,23 @@ const MealPlanCard = ({ plan, onSelect }) => {
 // --- Main App Component ---
 export default function App() {
     const [mealPlans, setMealPlans] = useState([]);
-    const [fullFoodData, setFullFoodData] = useState([]);
+    const [fullFoodData, setFullFoodData] = useState([]); // State for menu data
+    const [dvTargets, setDvTargets] = useState({});
     const [selectedPlan, setSelectedPlan] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        // Fetch both data files when the component mounts
-        Promise.all([
-            fetch('/meals.json'),
-            fetch('/menu.json') 
-        ])
-        .then(async ([resMeals, resMenu]) => {
-            if (!resMeals.ok || !resMenu.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const mealsData = await resMeals.json();
-            const menuData = await resMenu.json();
-            return [mealsData, menuData];
-        })
-        .then(([mealsData, menuData]) => {
+        // Since we are importing the JSON directly, we don't need to fetch.
+        if (mealsData && dvData && menuData) {
             setMealPlans(mealsData);
-            setFullFoodData(menuData);
+            setDvTargets(dvData);
+            setFullFoodData(menuData); // Load menu data into state
             setLoading(false);
-        })
-        .catch(error => {
-            console.error("Failed to fetch data:", error);
-            setError("Could not load meal data. Please make sure 'meals.json' and 'menu.json' are in the 'public' folder.");
+        } else {
+            setError("Could not load data from JSON files.");
             setLoading(false);
-        });
+        }
     }, []); // Empty dependency array means this runs once on mount
 
     const handleSelectPlan = (plan) => {
@@ -174,7 +178,8 @@ export default function App() {
             return <p className="text-center text-red-500">{error}</p>;
         }
         if (selectedPlan) {
-            return <MealDetail plan={selectedPlan} onBack={handleBack} fullFoodData={fullFoodData} />;
+            // Pass the required props to MealDetail, including fullFoodData
+            return <MealDetail plan={selectedPlan} onBack={handleBack} dvTargets={dvTargets} fullFoodData={fullFoodData} />;
         }
         if (mealPlans.length > 0) {
             return (
@@ -193,7 +198,7 @@ export default function App() {
             <div className="container mx-auto p-4 md:p-8">
                 <header className="text-center mb-10">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Today's Meal Plans</h1>
-                    <p className="text-lg text-gray-600 mt-2">Nutritionally balanced meal plans for the day, generated by our AI Nutritionist.</p>
+                    <p className="text-lg text-gray-600 mt-2">Nutritionally balanced meal plans for the day.</p>
                 </header>
 
                 <main id="contentContainer">
