@@ -1,0 +1,321 @@
+[
+  {
+    "rank": 1,
+    "micronutrient_score": 0.5112,
+    "daily_totals": {
+      "calories": 2085,
+      "protein": 115.8,
+      "total_fat": 76.5,
+      "saturated_fat": 19.9,
+      "total_carbohydrate": 240.1,
+      "dietary_fiber": 29.8,
+      "sodium": 2280,
+      "potassium": 4150.7,
+      "calcium": 875.3,
+      "iron": 17.8,
+      "vitamin_d": 5.1,
+      "cholesterol": 298,
+      "added_sugars": 42
+    },
+    "plan": {
+      "Breakfast": {
+        "total_calories": 595,
+        "items": [
+          {
+            "item_name": "Scrambled Eggs",
+            "servings": 2
+          },
+          {
+            "item_name": "Bacon",
+            "servings": 1
+          },
+          {
+            "item_name": "Western Style Potatoes",
+            "servings": 1
+          },
+          {
+            "item_name": "Fresh Orange",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Gala Apple",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      },
+      "Lunch": {
+        "total_calories": 721,
+        "items": [
+          {
+            "item_name": "Grilled Chicken Breast",
+            "servings": 1
+          },
+          {
+            "item_name": "Basmati Rice",
+            "servings": 1
+          },
+          {
+            "item_name": "Roasted Baby Carrots w/ Chimichurri",
+            "servings": 2
+          },
+          {
+            "item_name": "Acadian Lettuce Blend",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Edamame",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      },
+      "Dinner": {
+        "total_calories": 769,
+        "items": [
+          {
+            "item_name": "Italian Meatballs",
+            "servings": 1
+          },
+          {
+            "item_name": "Penne Pasta",
+            "servings": 1
+          },
+          {
+            "item_name": "Marinara Sauce",
+            "servings": 1
+          },
+          {
+            "item_name": "Roasted Italian Broccoli",
+            "servings": 1
+          },
+          {
+            "item_name": "Shredded Mozzarella Cheese",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Chopped Romaine Lettuce",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rank": 2,
+    "micronutrient_score": 0.7345,
+    "daily_totals": {
+      "calories": 1988,
+      "protein": 92.1,
+      "total_fat": 74.2,
+      "saturated_fat": 18.1,
+      "total_carbohydrate": 255.6,
+      "dietary_fiber": 31.2,
+      "sodium": 2195,
+      "potassium": 3850.2,
+      "calcium": 950.1,
+      "iron": 16.5,
+      "vitamin_d": 3.3,
+      "cholesterol": 245,
+      "added_sugars": 38
+    },
+    "plan": {
+      "Breakfast": {
+        "total_calories": 550,
+        "items": [
+          {
+            "item_name": "Overnight Oats",
+            "servings": 2
+          },
+          {
+            "item_name": "Hard Boiled Egg",
+            "servings": 2
+          },
+          {
+            "item_name": "Plain Greek Yogurt",
+            "servings": 1
+          },
+          {
+            "item_name": "Banana",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Blueberries",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      },
+      "Lunch": {
+        "total_calories": 730,
+        "items": [
+          {
+            "item_name": "Deli Sliced Roast Turkey Breast",
+            "servings": 2
+          },
+          {
+            "item_name": "Honey Wheat Bread",
+            "servings": 2
+          },
+          {
+            "item_name": "Potato Chip w/Trail Dust Seasoning",
+            "servings": 1
+          },
+          {
+            "item_name": "Sliced Pickles",
+            "servings": 1
+          },
+          {
+            "item_name": "Shredded Romaine",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Fresh Tomato Slices",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      },
+      "Dinner": {
+        "total_calories": 708,
+        "items": [
+          {
+            "item_name": "Seasoned Plant-based Fajita",
+            "servings": 2
+          },
+          {
+            "item_name": "Southwest-Style Quinoa",
+            "servings": 1
+          },
+          {
+            "item_name": "Refried Beans",
+            "servings": 1
+          },
+          {
+            "item_name": "Garbanzo Beans",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Sliced Red Onion",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rank": 3,
+    "micronutrient_score": 1.2533,
+    "daily_totals": {
+      "calories": 2150,
+      "protein": 101.4,
+      "total_fat": 78.0,
+      "saturated_fat": 20.0,
+      "total_carbohydrate": 245.8,
+      "dietary_fiber": 20.1,
+      "sodium": 2290,
+      "potassium": 3100.0,
+      "calcium": 1050.6,
+      "iron": 14.8,
+      "vitamin_d": 2.1,
+      "cholesterol": 260,
+      "added_sugars": 49
+    },
+    "plan": {
+      "Breakfast": {
+        "total_calories": 610,
+        "items": [
+          {
+            "item_name": "Southern Buttermilk Biscuit",
+            "servings": 1
+          },
+          {
+            "item_name": "Peppered Cream Gravy",
+            "servings": 1
+          },
+          {
+            "item_name": "Scrambled Eggs",
+            "servings": 2
+          },
+          {
+            "item_name": "Cantaloupe",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Fresh Red Grapes",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      },
+      "Lunch": {
+        "total_calories": 750,
+        "items": [
+          {
+            "item_name": "Chicaco Style Hot Dog Frank",
+            "servings": 1
+          },
+          {
+            "item_name": "Poppyseed Bun",
+            "servings": 1
+          },
+          {
+            "item_name": "Waffle Fries",
+            "servings": 1
+          },
+          {
+            "item_name": "Chicago Style Relish",
+            "servings": 1
+          },
+          {
+            "item_name": "Acadian Lettuce Blend",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Cherry Tomatoes",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      },
+      "Dinner": {
+        "total_calories": 790,
+        "items": [
+          {
+            "item_name": "Pepperoni Pizza",
+            "servings": 1
+          },
+          {
+            "item_name": "Breadstick",
+            "servings": 2
+          },
+          {
+            "item_name": "Sauteed Vegetable Blend",
+            "servings": 2
+          },
+          {
+            "item_name": "Raw Broccoli Florets",
+            "servings": 1,
+            "is_topping": true
+          },
+          {
+            "item_name": "Shredded Carrots",
+            "servings": 1,
+            "is_topping": true
+          }
+        ]
+      }
+    }
+  }
+]
+    
