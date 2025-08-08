@@ -4,23 +4,32 @@ import time
 import json
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from datetime import datetime
+from urllib.parse import quote
 
 # --- Configuration ---
 # The base URL is needed to construct full links from the relative ones in the file.
 BASE_URL = "https://hf-foodpro.austin.utexas.edu/foodpro/"
 # List of main menu pages to scrape, now including the meal time name
+
+# Get today's date in m/d/yyyy format (no leading zeros — Windows compatible)
+today = datetime.now().strftime("%#m/%#d/%Y")
+
+# URL-encode the date for use in the query string
+encoded_date = quote(today)
+
 MENU_URLS = [
     {
         "name": "Breakfast",
-        "url": "https://hf-foodpro.austin.utexas.edu/foodpro/longmenu.aspx?sName=University+Housing+and+Dining&locationNum=12&locationName=Jester+Dining%3a+J2+%26+JCL&naFlag=1&WeeksMenus=This+Week%27s+Menus&dtdate=08%2f05%2f2025&mealName=Breakfast"
+        "url": f"https://hf-foodpro.austin.utexas.edu/foodpro/longmenu.aspx?sName=University+Housing+and+Dining&locationNum=12&locationName=Jester+Dining%3a+J2+%26+JCL&naFlag=1&WeeksMenus=This+Week%27s+Menus&dtdate={encoded_date}&mealName=Breakfast"
     },
     {
         "name": "Lunch",
-        "url": "https://hf-foodpro.austin.utexas.edu/foodpro/longmenu.aspx?sName=University+Housing+and+Dining&locationNum=12&locationName=Jester+Dining%3a+J2+%26+JCL&naFlag=1&WeeksMenus=This+Week%27s+Menus&dtdate=8%2f4%2f2025&mealName=Lunch"
+        "url": f"https://hf-foodpro.austin.utexas.edu/foodpro/longmenu.aspx?sName=University+Housing+and+Dining&locationNum=12&locationName=Jester+Dining%3a+J2+%26+JCL&naFlag=1&WeeksMenus=This+Week%27s+Menus&dtdate={encoded_date}&mealName=Lunch"
     },
     {
         "name": "Dinner",
-        "url": "https://hf-foodpro.austin.utexas.edu/foodpro/longmenu.aspx?sName=University+Housing+and+Dining&locationNum=12&locationName=Jester+Dining%3a+J2+%26+JCL&naFlag=1&WeeksMenus=This+Week%27s+Menus&dtdate=8%2f4%2f2025&mealName=Dinner"
+        "url": f"https://hf-foodpro.austin.utexas.edu/foodpro/longmenu.aspx?sName=University+Housing+and+Dining&locationNum=12&locationName=Jester+Dining%3a+J2+%26+JCL&naFlag=1&WeeksMenus=This+Week%27s+Menus&dtdate={encoded_date}&mealName=Dinner"
     }
 ]
 OUTPUT_FILENAME = "full_menu_nutrition.json"
@@ -153,10 +162,10 @@ def parse_nutrition_page(html_content):
     nutrition_data['potassium'] = get_nutrient(soup, 'Potassium')
 
     ingredients_tag = soup.find('span', class_='labelingredientsvalue')
-    nutrition_data['ingredients'] = ingredients_tag.get_text(strip=True).replace('\n', ' ') if ingredients_tag else "Not found"
+    # nutrition_data['ingredients'] = ingredients_tag.get_text(strip=True).replace('\n', ' ') if ingredients_tag else "Not found"
 
     allergens_tag = soup.find('span', class_='labelallergensvalue')
-    nutrition_data['allergens'] = allergens_tag.get_text(strip=True) if allergens_tag else "Not found"
+    # nutrition_data['allergens'] = allergens_tag.get_text(strip=True) if allergens_tag else "Not found"
     
     return nutrition_data
 
@@ -243,7 +252,7 @@ if __name__ == "__main__":
                     item_data['meal_times'] = metadata['meal_times']
                     item_data['is_salad_topping'] = metadata['is_salad_topping']
                     item_data['food_type'] = metadata['food_type']
-                    item_data['source_url'] = url # Add the source URL for reference
+                    # item_data['source_url'] = url # Add the source URL for reference
                     all_menu_data.append(item_data)
                     
                     print(f"  ({i+1}/{len(all_meal_info)}) Successfully scraped: {item_data.get('item_name', 'Unknown Item')}")
