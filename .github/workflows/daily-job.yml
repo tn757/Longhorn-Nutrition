@@ -3,6 +3,9 @@ name: Daily Script
 env:
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+permissions:
+  contents: write  # Allow the workflow to push changes to the repository
+
 
 on:
   workflow_dispatch:
