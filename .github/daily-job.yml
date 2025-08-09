@@ -1,6 +1,7 @@
 name: Daily Script
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '25 1 * * *'  # Every day at 01:25 UTC
 
