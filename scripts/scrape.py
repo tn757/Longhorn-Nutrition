@@ -4,7 +4,7 @@ import time
 import json
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.parse import quote
 
 # --- Configuration ---
@@ -13,7 +13,7 @@ BASE_URL = "https://hf-foodpro.austin.utexas.edu/foodpro/"
 # List of main menu pages to scrape, now including the meal time name
 
 # Get today's date in m/d/yyyy format (no leading zeros — Windows compatible)
-today = datetime.now().strftime("%#m/%#d/%Y")
+today = datetime.now(timezone.utc).strftime("%#m/%#d/%Y")
 
 # URL-encode the date for use in the query string
 encoded_date = quote(today)
