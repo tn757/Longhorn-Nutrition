@@ -32,7 +32,7 @@ MENU_URLS = [
         "url": f"https://hf-foodpro.austin.utexas.edu/foodpro/longmenu.aspx?sName=University+Housing+and+Dining&locationNum=12&locationName=Jester+Dining%3a+J2+%26+JCL&naFlag=1&WeeksMenus=This+Week%27s+Menus&dtdate={encoded_date}&mealName=Dinner"
     }
 ]
-OUTPUT_FILENAME = "full_menu_nutrition.json"
+OUTPUT_FILENAME = "./app/public/menu.json"
 
 # --- Stage 1: Function to get all meal links and their categories from a menu page ---
 def get_meal_info_from_menu(menu_html_content):
