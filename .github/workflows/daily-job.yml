@@ -32,7 +32,7 @@ jobs:
         run: python ./scripts/scrape.py
 
       - name: Run gem script
-        run: python ./scripts/gem.py
+        # run: python ./scripts/gem.py
 
       - name: Commit and push changes
         run: |
