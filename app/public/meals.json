@@ -4,83 +4,75 @@
     "micronutrient_score": 0.92,
     "daily_totals": {
       "calories": 1989,
-      "protein": 105.3,
-      "total_fat": 77.5,
-      "saturated_fat": 18.9,
-      "total_carbohydrate": 228.7,
-      "dietary_fiber": 34.8,
-      "sodium": 2254.1,
-      "potassium": 4758.4,
-      "calcium": 1311.5,
-      "iron": 18.5,
-      "vitamin_d": 4.1,
-      "cholesterol": 299.1,
-      "added_sugars": 4.6
+      "protein": 117.5,
+      "total_fat": 68.5,
+      "saturated_fat": 15.4,
+      "total_carbohydrate": 231.8,
+      "dietary_fiber": 30.1,
+      "sodium": 2258.6,
+      "potassium": 4755.4,
+      "calcium": 486.1,
+      "iron": 14.1,
+      "vitamin_d": 1.8,
+      "cholesterol": 298.9,
+      "added_sugars": 0.0
     },
     "plan": {
       "Breakfast": {
-        "total_calories": 481,
+        "total_calories": 460,
         "items": [
           {
-            "item_name": "Buffalo Tofu Scramble",
-            "servings": 2
+            "item_name": "Scrambled Eggs",
+            "servings": 1
           },
           {
-            "item_name": "Plain Greek Yogurt",
-            "servings": 2
-          },
-          {
-            "item_name": "Hard Boiled Egg",
+            "item_name": "Plant-based Breakfast Patty",
             "servings": 1
           },
           {
             "item_name": "Banana",
             "servings": 1
-          },
-          {
-            "item_name": "Cantaloupe",
-            "servings": 1
           }
         ]
       },
       "Lunch": {
-        "total_calories": 788,
+        "total_calories": 603,
         "items": [
           {
             "item_name": "Halal Grilled Chicken",
             "servings": 2
           },
           {
-            "item_name": "Baked Potato",
+            "item_name": "Dirty Rice",
             "servings": 1
+          },
+          {
+            "item_name": "Black Beans",
+            "servings": 1
+          },
+          {
+            "item_name": "Fresh Spinach",
+            "servings": 2
+          }
+        ]
+      },
+      "Dinner": {
+        "total_calories": 926,
+        "items": [
+          {
+            "item_name": "Roasted Turkey Breast",
+            "servings": 2
+          },
+          {
+            "item_name": "Roasted Greek Potatoes",
+            "servings": 2
           },
           {
             "item_name": "Roasted Italian Broccoli",
             "servings": 2
           },
           {
-            "item_name": "Shredded Cheddar Cheese",
-            "servings": 1
-          }
-        ]
-      },
-      "Dinner": {
-        "total_calories": 720,
-        "items": [
-          {
-            "item_name": "Honey Balsamic Chicken Breast",
-            "servings": 2
-          },
-          {
-            "item_name": "Smashed Red Potatoes w/ Skin",
-            "servings": 1
-          },
-          {
-            "item_name": "Bok Choy Stir-Fry",
-            "servings": 2
-          },
-          {
-            "item_name": "Dinner Roll",
+            "item_name": "Gala Apple",
             "servings": 1
           }
         ]
@@ -91,80 +83,84 @@
     "rank": 2,
     "micronutrient_score": 0.88,
     "daily_totals": {
-      "calories": 2021,
-      "protein": 92.1,
-      "total_fat": 75.8,
-      "saturated_fat": 19.8,
-      "total_carbohydrate": 255.4,
-      "dietary_fiber": 29.1,
-      "sodium": 2198.5,
-      "potassium": 4810.2,
-      "calcium": 1055.7,
-      "iron": 22.3,
-      "vitamin_d": 3.1,
-      "cholesterol": 288.4,
-      "added_sugars": 2.8
+      "calories": 2041,
+      "protein": 75.1,
+      "total_fat": 77.1,
+      "saturated_fat": 18.4,
+      "total_carbohydrate": 278.9,
+      "dietary_fiber": 34.9,
+      "sodium": 2287.0,
+      "potassium": 2480.6,
+      "calcium": 540.1,
+      "iron": 24.8,
+      "vitamin_d": 1.5,
+      "cholesterol": 0.0,
+      "added_sugars": 5.2
     },
     "plan": {
       "Breakfast": {
-        "total_calories": 462,
+        "total_calories": 488,
         "items": [
           {
-            "item_name": "Scrambled Eggs",
+            "item_name": "Overnight Oats",
             "servings": 2
           },
           {
-            "item_name": "Beans de Charro",
+            "item_name": "Fresh Orange",
             "servings": 1
           },
           {
-            "item_name": "Plant-based Breakfast Patty",
+            "item_name": "Vegan Blueberry Coffee Cake Muffin",
             "servings": 1
           }
         ]
       },
       "Lunch": {
-        "total_calories": 759,
+        "total_calories": 798,
         "items": [
           {
-            "item_name": "Shell Pasta",
+            "item_name": "Black Bean Quinoa Veggie Patty",
             "servings": 1
           },
           {
-            "item_name": "Marinara Sauce",
+            "item_name": "White Hamburger Bun",
             "servings": 1
           },
           {
-            "item_name": "Plant-based Meatballs",
-            "servings": 4
-          },
-          {
-            "item_name": "Side Salad with Tuna",
+            "item_name": "Sweet Potato Tater Tots",
             "servings": 1
           },
           {
-            "item_name": "Breadstick",
+            "item_name": "Chopped Romaine Lettuce",
+            "servings": 2
+          },
+          {
+            "item_name": "Cucumber Slices",
             "servings": 1
           }
         ]
       },
       "Dinner": {
-        "total_calories": 800,
+        "total_calories": 755,
         "items": [
           {
-            "item_name": "BBQ Spare Ribs",
+            "item_name": "BBQ Grilled Seitan",
             "servings": 1
           },
           {
-            "item_name": "Baked Potato",
+            "item_name": "Cowboy Beans",
             "servings": 1
           },
           {
-            "item_name": "Oven Baked Root Vegetables",
+            "item_name": "Ruby Wild Rice Pilaf",
             "servings": 1
           },
           {
-            "item_name": "Gala Apple",
+            "item_name": "Roasted Brussels Sprouts",
+            "servings": 1
+          },
+          {
+            "item_name": "Vegan Chocolate Cupcake",
             "servings": 1
           }
         ]
@@ -176,71 +172,147 @@
     "micronutrient_score": 0.81,
     "daily_totals": {
       "calories": 1955,
-      "protein": 88.5,
-      "total_fat": 78.1,
-      "saturated_fat": 21.2,
-      "total_carbohydrate": 230.9,
-      "dietary_fiber": 30.5,
-      "sodium": 2345.6,
-      "potassium": 3550.1,
-      "calcium": 980.4,
-      "iron": 19.9,
-      "vitamin_d": 2.5,
-      "cholesterol": 251.3,
-      "added_sugars": 10.0
+      "protein": 61.9,
+      "total_fat": 75.9,
+      "saturated_fat": 19.8,
+      "total_carbohydrate": 261.2,
+      "dietary_fiber": 15.9,
+      "sodium": 2198.9,
+      "potassium": 1640.1,
+      "calcium": 860.9,
+      "iron": 12.1,
+      "vitamin_d": 5.6,
+      "cholesterol": 296.4,
+      "added_sugars": 4.8
     },
     "plan": {
       "Breakfast": {
-        "total_calories": 536,
+        "total_calories": 502,
         "items": [
           {
-            "item_name": "French Toast Sticks",
-            "servings": 1
-          },
-          {
-            "item_name": "Bacon",
-            "servings": 1
+            "item_name": "Pancakes",
+            "servings": 2
           },
           {
             "item_name": "Hard Boiled Egg",
+            "servings": 1
+          },
+          {
+            "item_name": "Pancake Syrup",
             "servings": 1
           }
         ]
       },
       "Lunch": {
-        "total_calories": 699,
+        "total_calories": 634,
         "items": [
           {
-            "item_name": "Hamburger Patty",
+            "item_name": "Grilled Cheese on Texas Toast",
             "servings": 1
           },
           {
-            "item_name": "White Hamburger Bun",
+            "item_name": "Fire Roasted Vegetable Soup",
+            "servings": 2
+          },
+          {
+            "item_name": "Tuna Salad",
             "servings": 1
           },
           {
-            "item_name": "American Cheese Slices",
-            "servings": 1
-          },
-          {
-            "item_name": "Fried Sidewinder Potatoes",
+            "item_name": "Fresh Red Grapes",
             "servings": 1
           }
         ]
       },
       "Dinner": {
-        "total_calories": 720,
+        "total_calories": 819,
         "items": [
           {
-            "item_name": "Chicken Quesadilla",
+            "item_name": "Broccoli Cheese Stuffed Chicken",
+            "servings": 2
+          },
+          {
+            "item_name": "Buttered Parsley New Potatoes",
             "servings": 1
           },
           {
-            "item_name": "Mexican Rice Pilaf",
+            "item_name": "Caribbean Vegetables",
             "servings": 1
           },
           {
-            "item_name": "Refried Beans",
+            "item_name": "Pumpkin Pie",
+            "servings": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rank": 4,
+    "micronutrient_score": 0.75,
+    "daily_totals": {
+      "calories": 2015,
+      "protein": 74.8,
+      "total_fat": 76.5,
+      "saturated_fat": 19.5,
+      "total_carbohydrate": 268.0,
+      "dietary_fiber": 21.1,
+      "sodium": 2295.1,
+      "potassium": 3456.7,
+      "calcium": 604.3,
+      "iron": 15.5,
+      "vitamin_d": 1.5,
+      "cholesterol": 99.4,
+      "added_sugars": 10.6
+    },
+    "plan": {
+      "Breakfast": {
+        "total_calories": 416,
+        "items": [
+          {
+            "item_name": "Sausage Link",
+            "servings": 1
+          },
+          {
+            "item_name": "Hot Hearty Oatmeal",
+            "servings": 1
+          }
+        ]
+      },
+      "Lunch": {
+        "total_calories": 846,
+        "items": [
+          {
+            "item_name": "Beef Picadillo",
+            "servings": 1
+          },
+          {
+            "item_name": "Housemade Spanish Rice",
+            "servings": 2
+          },
+          {
+            "item_name": "Beans de Charro",
+            "servings": 1
+          },
+          {
+            "item_name": "Pico de Gallo",
+            "servings": 2
+          }
+        ]
+      },
+      "Dinner": {
+        "total_calories": 753,
+        "items": [
+          {
+            "item_name": "Chicken & Chile Posole",
+            "servings": 2
+          },
+          {
+            "item_name": "Cornbread",
+            "servings": 2
+          },
+          {
+            "item_name": "Cabbage with Lime and Sambal",
             "servings": 1
           },
           {
@@ -252,175 +324,87 @@
     }
   },
   {
-    "rank": 4,
-    "micronutrient_score": 0.79,
-    "daily_totals": {
-      "calories": 2088,
-      "protein": 75.4,
-      "total_fat": 72.5,
-      "saturated_fat": 17.4,
-      "total_carbohydrate": 291.2,
-      "dietary_fiber": 31.1,
-      "sodium": 2280.3,
-      "potassium": 3105.8,
-      "calcium": 854.2,
-      "iron": 21.1,
-      "vitamin_d": 2.2,
-      "cholesterol": 186.5,
-      "added_sugars": 2.7
-    },
-    "plan": {
-      "Breakfast": {
-        "total_calories": 471,
-        "items": [
-          {
-            "item_name": "Hot Hearty Oatmeal",
-            "servings": 2
-          },
-          {
-            "item_name": "Oatmeal Topping Bar",
-            "servings": 1
-          },
-          {
-            "item_name": "Hard Boiled Egg",
-            "servings": 1
-          },
-          {
-            "item_name": "Vegan Peach Coffeecake Muffin",
-            "servings": 1
-          }
-        ]
-      },
-      "Lunch": {
-        "total_calories": 817,
-        "items": [
-          {
-            "item_name": "California Veggie Patty",
-            "servings": 1
-          },
-          {
-            "item_name": "White Hamburger Bun",
-            "servings": 1
-          },
-          {
-            "item_name": "Baked Sweet Potato",
-            "servings": 1
-          },
-          {
-            "item_name": "Hummus",
-            "servings": 1
-          },
-          {
-            "item_name": "Celery Sticks",
-            "servings": 2
-          },
-          {
-            "item_name": "Baby Carrots",
-            "servings": 2
-          }
-        ]
-      },
-      "Dinner": {
-        "total_calories": 800,
-        "items": [
-          {
-            "item_name": "Blackened Tofu",
-            "servings": 1
-          },
-          {
-            "item_name": "Vegetable Jambalaya",
-            "servings": 2
-          },
-          {
-            "item_name": "Creole Lima Beans",
-            "servings": 2
-          },
-          {
-            "item_name": "Dinner Roll",
-            "servings": 2
-          }
-        ]
-      }
-    }
-  },
-  {
     "rank": 5,
-    "micronutrient_score": 0.75,
+    "micronutrient_score": 0.69,
     "daily_totals": {
-      "calories": 1992,
-      "protein": 69.8,
-      "total_fat": 79.2,
-      "saturated_fat": 24.5,
-      "total_carbohydrate": 258.6,
-      "dietary_fiber": 28.2,
-      "sodium": 2411.4,
-      "potassium": 2988.7,
-      "calcium": 755.9,
-      "iron": 18.1,
-      "vitamin_d": 3.8,
-      "cholesterol": 295.4,
-      "added_sugars": 15.9
+      "calories": 1996,
+      "protein": 68.1,
+      "total_fat": 72.8,
+      "saturated_fat": 18.1,
+      "total_carbohydrate": 280.1,
+      "dietary_fiber": 20.8,
+      "sodium": 2250.4,
+      "potassium": 2880.1,
+      "calcium": 591.8,
+      "iron": 13.9,
+      "vitamin_d": 1.5,
+      "cholesterol": 11.0,
+      "added_sugars": 10.6
     },
     "plan": {
       "Breakfast": {
-        "total_calories": 550,
+        "total_calories": 242,
         "items": [
           {
-            "item_name": "Southern Buttermilk Biscuit",
+            "item_name": "Vanilla Yogurt",
             "servings": 1
           },
           {
-            "item_name": "Scrambled Eggs",
+            "item_name": "Blueberries",
             "servings": 2
           },
           {
-            "item_name": "Peppered Cream Gravy",
-            "servings": 1
-          },
-          {
-            "item_name": "Fresh Orange",
+            "item_name": "Honeydew Melon",
             "servings": 1
           }
         ]
       },
       "Lunch": {
-        "total_calories": 642,
+        "total_calories": 813,
         "items": [
           {
             "item_name": "Pepperoni Pizza",
             "servings": 2
           },
           {
-            "item_name": "Side Salad with Veggies",
-            "servings": 1
+            "item_name": "Chopped Romaine Lettuce",
+            "servings": 2
           },
           {
-            "item_name": "Ranch Style Dip",
+            "item_name": "Cherry Tomatoes",
+            "servings": 2
+          },
+          {
+            "item_name": "Sliced Green Pepper",
+            "servings": 2
+          },
+          {
+            "item_name": "Rainbow Cookies",
             "servings": 1
           }
         ]
       },
       "Dinner": {
-        "total_calories": 800,
+        "total_calories": 941,
         "items": [
           {
-            "item_name": "Chicken Fried Steak",
-            "servings": 1
-          },
-          {
-            "item_name": "Mushroom Gravy",
-            "servings": 1
-          },
-          {
-            "item_name": "Smashed Red Potatoes w/ Skin",
+            "item_name": "Rigatoni Pasta",
             "servings": 2
           },
           {
-            "item_name": "Scandinavian Vegetables",
+            "item_name": "Marinara Sauce",
+            "servings": 1
+          },
+          {
+            "item_name": "Tofu",
+            "servings": 1
+          },
+          {
+            "item_name": "Breadstick",
             "servings": 2
           },
           {
-            "item_name": "Dinner Roll",
+            "item_name": "Roasted Italian Vegetables",
             "servings": 1
           }
         ]
