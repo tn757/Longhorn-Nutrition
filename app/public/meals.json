@@ -1,46 +1,46 @@
 [
   {
     "rank": 1,
-    "micronutrient_score": 0.95,
+    "micronutrient_score": 0.94,
     "daily_totals": {
-      "calories": 1986,
-      "protein": 105.4,
-      "total_fat": 77.8,
+      "calories": 2012,
+      "protein": 105.3,
+      "total_fat": 77.5,
       "saturated_fat": 19.8,
-      "total_carbohydrate": 221.5,
+      "total_carbohydrate": 234.8,
       "dietary_fiber": 30.1,
-      "sodium": 2258.1,
-      "potassium": 4785.5,
-      "calcium": 1311.1,
-      "iron": 18.5,
-      "vitamin_d": 4.5,
-      "cholesterol": 295.1,
-      "added_sugars": 4.0
+      "sodium": 2250.7,
+      "potassium": 4788.4,
+      "calcium": 1315.6,
+      "iron": 18.9,
+      "vitamin_d": 6.4,
+      "cholesterol": 295.4,
+      "added_sugars": 12.0
     },
     "plan": {
       "Breakfast": {
-        "total_calories": 525,
+        "total_calories": 439,
         "items": [
           {
             "item_name": "Scrambled Eggs",
-            "servings": 2
+            "servings": 1
           },
           {
             "item_name": "Plant-based Breakfast Patty",
             "servings": 1
           },
           {
-            "item_name": "Shredded Hash Browns",
+            "item_name": "Vanilla Yogurt",
             "servings": 1
           },
           {
-            "item_name": "Fresh Orange",
+            "item_name": "Banana",
             "servings": 1
           }
         ]
       },
       "Lunch": {
-        "total_calories": 733,
+        "total_calories": 786,
         "items": [
           {
             "item_name": "Halal Grilled Chicken",
@@ -61,166 +61,11 @@
           {
             "item_name": "Sour Cream",
             "servings": 1
-          },
-          {
-            "item_name": "Dinner Roll",
-            "servings": 1
           }
         ]
       },
       "Dinner": {
-        "total_calories": 728,
-        "items": [
-          {
-            "item_name": "Oak Smoked Chicken w/ BBQ Sauce",
-            "servings": 1
-          },
-          {
-            "item_name": "Caribbean Yellow Rice",
-            "servings": 1
-          },
-          {
-            "item_name": "Fresh Collard Greens",
-            "servings": 2
-          }
-        ]
-      }
-    }
-  },
-  {
-    "rank": 2,
-    "micronutrient_score": 0.88,
-    "daily_totals": {
-      "calories": 1949,
-      "protein": 91.1,
-      "total_fat": 75.1,
-      "saturated_fat": 18.5,
-      "total_carbohydrate": 234.8,
-      "dietary_fiber": 32.5,
-      "sodium": 2198.5,
-      "potassium": 4901.2,
-      "calcium": 1020.5,
-      "iron": 22.3,
-      "vitamin_d": 1.1,
-      "cholesterol": 243.9,
-      "added_sugars": 3.5
-    },
-    "plan": {
-      "Breakfast": {
-        "total_calories": 508,
-        "items": [
-          {
-            "item_name": "Chipotle Meatless Chorizo with Fajita Vegetables",
-            "servings": 1
-          },
-          {
-            "item_name": "Refried Beans",
-            "servings": 1
-          },
-          {
-            "item_name": "6\" Flour Tortilla",
-            "servings": 1
-          },
-          {
-            "item_name": "Hard Boiled Egg",
-            "servings": 1
-          }
-        ]
-      },
-      "Lunch": {
-        "total_calories": 695,
-        "items": [
-          {
-            "item_name": "Smothered Pork Chops",
-            "servings": 1
-          },
-          {
-            "item_name": "Baked Sweet Potato",
-            "servings": 1
-          },
-          {
-            "item_name": "Lentil Vegetable Soup",
-            "servings": 2
-          },
-          {
-            "item_name": "Sauteed Spinach w/ Garlic",
-            "servings": 1
-          }
-        ]
-      },
-      "Dinner": {
-        "total_calories": 746,
-        "items": [
-          {
-            "item_name": "Tandoori Chicken",
-            "servings": 2
-          },
-          {
-            "item_name": "Summer Quinoa Salad w/ Agave Lime Dressing",
-            "servings": 1
-          },
-          {
-            "item_name": "Hummus",
-            "servings": 1
-          },
-          {
-            "item_name": "Teardrop Naan Bread",
-            "servings": 2
-          },
-          {
-            "item_name": "Boston Baked Beans with Bacon",
-            "servings": 1
-          }
-        ]
-      }
-    }
-  },
-  {
-    "rank": 3,
-    "micronutrient_score": 0.81,
-    "daily_totals": {
-      "calories": 2021,
-      "protein": 75.5,
-      "total_fat": 76.9,
-      "saturated_fat": 19.9,
-      "total_carbohydrate": 268.9,
-      "dietary_fiber": 28.4,
-      "sodium": 2295.4,
-      "potassium": 3855.9,
-      "calcium": 985.4,
-      "iron": 19.1,
-      "vitamin_d": 5.6,
-      "cholesterol": 288.4,
-      "added_sugars": 29.1
-    },
-    "plan": {
-      "Breakfast": {
-        "total_calories": 559,
-        "items": [
-          {
-            "item_name": "Southern Buttermilk Biscuit",
-            "servings": 1
-          },
-          {
-            "item_name": "Peppered Cream Gravy",
-            "servings": 1
-          },
-          {
-            "item_name": "Sliced Breakfast Ham",
-            "servings": 1
-          },
-          {
-            "item_name": "Scrambled Eggs",
-            "servings": 1
-          },
-          {
-            "item_name": "Cantaloupe",
-            "servings": 1
-          }
-        ]
-      },
-      "Lunch": {
-        "total_calories": 794,
+        "total_calories": 787,
         "items": [
           {
             "item_name": "Hamburger Patty",
@@ -231,37 +76,188 @@
             "servings": 1
           },
           {
-            "item_name": "American Cheese Slices",
+            "item_name": "Baked Sweet Potato",
             "servings": 1
           },
           {
-            "item_name": "Waffle Fries",
+            "item_name": "Fresh Collard Greens",
+            "servings": 1
+          },
+          {
+            "item_name": "Gala Apple",
+            "servings": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rank": 2,
+    "micronutrient_score": 0.91,
+    "daily_totals": {
+      "calories": 1955,
+      "protein": 85.1,
+      "total_fat": 65.2,
+      "saturated_fat": 17.1,
+      "total_carbohydrate": 268.5,
+      "dietary_fiber": 41.5,
+      "sodium": 2188.9,
+      "potassium": 4705.2,
+      "calcium": 1302.1,
+      "iron": 22.5,
+      "vitamin_d": 0.9,
+      "cholesterol": 0,
+      "added_sugars": 7.0
+    },
+    "plan": {
+      "Breakfast": {
+        "total_calories": 513,
+        "items": [
+          {
+            "item_name": "Cowboy Tofu Scrambled",
+            "servings": 2
+          },
+          {
+            "item_name": "Brazilian Black Beans",
+            "servings": 1
+          },
+          {
+            "item_name": "6\" Flour Tortilla",
+            "servings": 1
+          },
+          {
+            "item_name": "Fresh Orange",
+            "servings": 1
+          }
+        ]
+      },
+      "Lunch": {
+        "total_calories": 659,
+        "items": [
+          {
+            "item_name": "Black Bean Quinoa Veggie Patty",
+            "servings": 1
+          },
+          {
+            "item_name": "White Hamburger Bun",
+            "servings": 1
+          },
+          {
+            "item_name": "Roasted Sweet Potatoes",
+            "servings": 1
+          },
+          {
+            "item_name": "Fresh Collard Greens",
+            "servings": 2
+          }
+        ]
+      },
+      "Dinner": {
+        "total_calories": 783,
+        "items": [
+          {
+            "item_name": "Curried Lentil Tempeh w/ Chickpeas",
+            "servings": 2
+          },
+          {
+            "item_name": "Basmati Rice",
+            "servings": 1
+          },
+          {
+            "item_name": "Gobi Aloo (Cauliflower & Potatoes)",
+            "servings": 1
+          },
+          {
+            "item_name": "Dal Palak",
+            "servings": 1
+          },
+          {
+            "item_name": "Teardrop Naan Bread",
+            "servings": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rank": 3,
+    "micronutrient_score": 0.86,
+    "daily_totals": {
+      "calories": 2098,
+      "protein": 112.4,
+      "total_fat": 82.1,
+      "saturated_fat": 24.5,
+      "total_carbohydrate": 225.6,
+      "dietary_fiber": 28.2,
+      "sodium": 2380.4,
+      "potassium": 4910.3,
+      "calcium": 1055.8,
+      "iron": 21.1,
+      "vitamin_d": 5.8,
+      "cholesterol": 342.1,
+      "added_sugars": 4.0
+    },
+    "plan": {
+      "Breakfast": {
+        "total_calories": 458,
+        "items": [
+          {
+            "item_name": "Scrambled Eggs",
+            "servings": 2
+          },
+          {
+            "item_name": "Pork Carnitas",
+            "servings": 0.5
+          },
+          {
+            "item_name": "6\" Flour Tortilla",
+            "servings": 2
+          }
+        ]
+      },
+      "Lunch": {
+        "total_calories": 813,
+        "items": [
+          {
+            "item_name": "Southern Fried Chicken",
+            "servings": 1
+          },
+          {
+            "item_name": "Macaroni & Cheese",
+            "servings": 0.5
+          },
+          {
+            "item_name": "Fresh Collard Greens",
+            "servings": 1
+          },
+          {
+            "item_name": "Sweet Yeast Roll",
             "servings": 1
           }
         ]
       },
       "Dinner": {
-        "total_calories": 668,
+        "total_calories": 827,
         "items": [
           {
-            "item_name": "Rigatoni Pasta",
+            "item_name": "Bulgogi Barbecue Beef Strips",
             "servings": 1
           },
           {
-            "item_name": "Marinara Sauce",
+            "item_name": "Elbow Macaroni",
             "servings": 1
           },
           {
-            "item_name": "Turkey Meatballs",
+            "item_name": "Housemade Korean Cheese Sauce",
+            "servings": 1
+          },
+          {
+            "item_name": "Quick Kimchi Slaw",
             "servings": 2
           },
           {
-            "item_name": "Breadstick",
+            "item_name": "Pickled Daikon and Carrots",
             "servings": 1
-          },
-          {
-            "item_name": "Chocolate Chip Cookie",
-            "servings": 0.5
           }
         ]
       }
@@ -271,80 +267,94 @@
     "rank": 4,
     "micronutrient_score": 0.79,
     "daily_totals": {
-      "calories": 1995,
-      "protein": 115.8,
-      "total_fat": 72.5,
-      "saturated_fat": 16.1,
-      "total_carbohydrate": 229.1,
-      "dietary_fiber": 35.2,
-      "sodium": 2280.8,
-      "potassium": 3751.6,
-      "calcium": 854.4,
-      "iron": 28.4,
-      "vitamin_d": 0.2,
-      "cholesterol": 0.0,
-      "added_sugars": 4.0
+      "calories": 1989,
+      "protein": 90.5,
+      "total_fat": 75.8,
+      "saturated_fat": 19.2,
+      "total_carbohydrate": 241.1,
+      "dietary_fiber": 32.5,
+      "sodium": 2855.3,
+      "potassium": 5012.6,
+      "calcium": 980.5,
+      "iron": 19.5,
+      "vitamin_d": 2.8,
+      "cholesterol": 288.4,
+      "added_sugars": 11.3
     },
     "plan": {
       "Breakfast": {
-        "total_calories": 542,
+        "total_calories": 418,
         "items": [
           {
-            "item_name": "Overnight Oats",
+            "item_name": "Hard Boiled Egg",
             "servings": 2
           },
           {
-            "item_name": "Plant-based Breakfast Patty",
+            "item_name": "Overnight Oats",
             "servings": 1
           },
           {
-            "item_name": "Gala Apple",
+            "item_name": "Breakfast Topping Bar",
             "servings": 1
           }
         ]
       },
       "Lunch": {
-        "total_calories": 656,
+        "total_calories": 769,
         "items": [
           {
-            "item_name": "BBQ Grilled Seitan",
+            "item_name": "Farfalle Pasta",
             "servings": 1
           },
           {
-            "item_name": "Baked Sweet Potato",
+            "item_name": "Marinara Sauce",
             "servings": 1
           },
           {
-            "item_name": "German Red Cabbage",
-            "servings": 1
-          },
-          {
-            "item_name": "Green Beans w/ Sauteed Onion",
+            "item_name": "Diced Chicken Breast",
             "servings": 2
           },
           {
-            "item_name": "Lentil Vegetable Soup",
+            "item_name": "Fresh Spinach",
+            "servings": 2
+          },
+          {
+            "item_name": "Breadstick",
             "servings": 1
           }
         ]
       },
       "Dinner": {
-        "total_calories": 797,
+        "total_calories": 802,
         "items": [
           {
-            "item_name": "Spiced Plant-based Jamaican Jerk",
-            "servings": 1
+            "item_name": "Pepperoni Pizza",
+            "servings": 2
           },
           {
-            "item_name": "Caribbean Black Beans",
-            "servings": 1
+            "item_name": "Large Salad",
+            "servings": 1,
+            "composition": [
+              {
+                "item_name": "Chopped Romaine Lettuce",
+                "servings": 2
+              },
+              {
+                "item_name": "Garbanzo Beans",
+                "servings": 1
+              },
+              {
+                "item_name": "Cucumber Slices",
+                "servings": 1
+              },
+              {
+                "item_name": "Shredded Carrots",
+                "servings": 1
+              }
+            ]
           },
           {
-            "item_name": "Caribbean Yellow Rice",
-            "servings": 1
-          },
-          {
-            "item_name": "Creamy Caribbean Callaloo",
+            "item_name": "Red Velvet Cake with Vanilla Icing",
             "servings": 1
           }
         ]
@@ -355,81 +365,81 @@
     "rank": 5,
     "micronutrient_score": 0.72,
     "daily_totals": {
-      "calories": 2058,
-      "protein": 82.3,
-      "total_fat": 77.2,
-      "saturated_fat": 19.6,
-      "total_carbohydrate": 275.3,
+      "calories": 2045,
+      "protein": 98.8,
+      "total_fat": 85.5,
+      "saturated_fat": 28.1,
+      "total_carbohydrate": 219.7,
       "dietary_fiber": 29.1,
-      "sodium": 2291.3,
-      "potassium": 3304.8,
-      "calcium": 1325.9,
+      "sodium": 2995.1,
+      "potassium": 3950.1,
+      "calcium": 1401.7,
       "iron": 18.1,
-      "vitamin_d": 10.8,
-      "cholesterol": 298.9,
-      "added_sugars": 48.1
+      "vitamin_d": 8.2,
+      "cholesterol": 355.9,
+      "added_sugars": 7.0
     },
     "plan": {
       "Breakfast": {
-        "total_calories": 585,
+        "total_calories": 594,
         "items": [
           {
-            "item_name": "Pancakes",
+            "item_name": "Southern Buttermilk Biscuit",
             "servings": 1
           },
           {
-            "item_name": "Pancake Syrup",
+            "item_name": "Sausage Patty",
+            "servings": 0.5
+          },
+          {
+            "item_name": "Peppered Cream Gravy",
             "servings": 1
           },
           {
-            "item_name": "Hard Boiled Egg",
-            "servings": 2
-          },
-          {
-            "item_name": "Vanilla Yogurt",
+            "item_name": "Scrambled Eggs",
             "servings": 1
           }
         ]
       },
       "Lunch": {
-        "total_calories": 711,
+        "total_calories": 671,
         "items": [
           {
-            "item_name": "Jerk Chicken",
+            "item_name": "Grilled Turkey and Cheese Sandwich",
             "servings": 1
           },
           {
-            "item_name": "Brazilian Black Beans",
-            "servings": 1
-          },
-          {
-            "item_name": "Pineapple Mango Salsa",
+            "item_name": "Tomato Bisque Soup",
             "servings": 2
           },
           {
-            "item_name": "Italian Pasta Salad",
-            "servings": 0.25
+            "item_name": "Tater Tots",
+            "servings": 0.5
           }
         ]
       },
       "Dinner": {
-        "total_calories": 762,
+        "total_calories": 780,
         "items": [
           {
-            "item_name": "Pepperoni Pizza",
-            "servings": 2
-          },
-          {
-            "item_name": "Chopped Romaine Lettuce",
-            "servings": 2
-          },
-          {
-            "item_name": "Ranch Style Dip",
+            "item_name": "Pork Carnitas",
             "servings": 1
           },
           {
-            "item_name": "Cranberry Orange Cream Trifle",
+            "item_name": "Hard Taco Shell",
+            "servings": 2
+          },
+          {
+            "item_name": "Chile Con Queso",
             "servings": 1
+          },
+          {
+            "item_name": "Southwest Black Beans",
+            "servings": 1
+          },
+          {
+            "item_name": "Pico de Gallo",
+            "servings": 2
           }
         ]
       }
